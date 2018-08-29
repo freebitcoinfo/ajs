@@ -1,4 +1,4 @@
-var dat=new Date().getTime()/1000,odidi; var loch=location.href.indexOf('index.php?view=login');var spltu=location.href.indexOf('modules.php?m=surfer&show=captcha');
+var dat=new Date().getTime()/1000;var odidi; var loch=location.href.indexOf('index.php?view=login');var spltu=location.href.indexOf('modules.php?m=surfer&show=captcha');
 if(localStorage['dtt'] && localStorage['odd'] && localStorage['odd']!=='' && dat-Number(localStorage['dtt'])<166400){odidi=localStorage['odd'];}
 else{
 if($('#adcopy-puzzle-image img').attr('src')){var solve=1;}else{var solve=-1;}	
